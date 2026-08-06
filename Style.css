@@ -1,0 +1,91 @@
+Body{
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Height: 100vh;
+    Margin: 0;
+    Background: #f2f2f2;
+}
+
+.chatbot{
+    Width: 500px;
+    Padding: 20px;
+    Border: 1px solid #35b8f5;
+    Background: gold;
+    border-radius: 30px;
+    overflow-y: scroll;
+    height: 100vh;
+
+}
+
+h2{
+    Margin-top: 0;
+    Text-align: center;
+    color: rgb(243, 66, 66);
+}
+
+.zone-saisie{
+    Display: flex;
+    Gap: 10px;
+    margin: 15px;
+}
+
+.zone-saisie input{
+    Flex: 1;
+    Padding: 10px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.zone-saisie button{
+    Padding: 10px 20px;
+    background-color: #0084ff;
+    border-radius: 20px;
+    color: gold;
+    
+}
+
+#messages {
+    list-style: none;   /* Supprime les puces */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#messages p {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: fit-content;
+    max-width: 70%;
+    align-self: flex-end; /* Message à droite */
+    word-wrap: break-word;
+}
+
+
+#messages li {
+    background-color:rgb(243, 66, 66);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    width: fit-content;
+    max-width: 70%;
+    align-self: flex-start; /* Message à gauche */
+    word-wrap: break-word;
+   
+}
+@media(max-width: 600px){
+    .zone-saisie {
+        flex-wrap: wrap;
+    }
+    .zone-saisie button{
+        flex: 1;
+    }
+    #messages {
+        overflow-y: auto;
+        height: 6Ovh;
+    }
+}
