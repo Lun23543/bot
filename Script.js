@@ -4,7 +4,7 @@ let baseConnaissance = [
         categorie: "geographie",
         question: "Quelle est la capitale de la RDC ?",
         reponse: "La capitale de la République démocratique du Congo est Kinshasa.",
-        mots_cles: ["capitale de la rdc", "kinshasa"]
+        mots_cles: ["capitale de la rdc",]
     },
 
     {
@@ -140,7 +140,7 @@ let baseConnaissance = [
         categorie: "geographie",
         question: "Quelle est la capitale de l'Équateur ?",
         reponse: "La capitale provinciale de l'Équateur est Mbandaka.",
-        mots_cles: ["equateur", "mbandaka", "chef-lieu de l'équateur"]
+        mots_cles: ["equateur", "chef-lieu de l'équateur"]
     },
 
     {
@@ -148,7 +148,7 @@ let baseConnaissance = [
         categorie: "geographie",
         question: "Quelle est la capitale de la Tshuapa ?",
         reponse: "La capitale provinciale de la Tshuapa est Boende.",
-        mots_cles: ["tshuapa", "boende", "chef-lieu du Tshuapa"]
+        mots_cles: ["tshuapa", "chef-lieu du Tshuapa"]
     },
 
     {
@@ -156,7 +156,7 @@ let baseConnaissance = [
         categorie: "geographie",
         question: "Quelle est la capitale du Sankuru ?",
         reponse: "La capitale provinciale du Sankuru est Lusambo.",
-        mots_cles: ["sankuru", "lusambo", "chef-lieu du sankuru"]
+        mots_cles: ["sankuru", "chef-lieu du sankuru"]
     },
 
     {
@@ -517,8 +517,7 @@ let baseConnaissance = [
     "reponse": "Le lac Tanganyika se trouve à l'est de la RDC et est partagé avec la Tanzanie, la Zambie et le Burundi.",
     "mots_cles": [
       "lac tanganyika",
-      "lacs",
-      "est"
+      
     ]
   },
   {
